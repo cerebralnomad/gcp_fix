@@ -1,14 +1,21 @@
 # gcp_fix
 Code change to the gcp utility to eliminate deprecation warnings
 
-Beginning with Ubuntu 20.04, gcp began throwing deprecation warnings when run.
+Beginning sometime around Ubuntu 20.04, gcp began throwing deprecation warnings when run.
 I made a handful of changes to the code to eliminate these warnings.
+
+The current version in the Ubuntu repo is 0.2.0
+Version 0.2.1 appears to be in the development pipeline and will include these 
+changes, and perhaps others.
+I made these changes to fix the errors until the new version makes it to the repo.
 
 The file gcp is located at /usr/share/gcp/
 It can be replaced or edited using sudo privledges.
+Replacing this file will still allow gcp to update to the new version, replacing 
+the edited 0.2.0 file with 0.2.1 when it becomes available.
 
 Both the original and edited versions are included in this repo for reference 
-and my own use in the future until official corrections can be made upstream.
+and my own use in the future until official corrections make their way down from upstream.
 
 ## List of changes made
 
