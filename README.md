@@ -5,9 +5,8 @@ Beginning sometime around Ubuntu 20.04, gcp began throwing deprecation warnings 
 I made a handful of changes to the code to eliminate these warnings.
 
 The current version in the Ubuntu repo is 0.2.0  
-Version 0.2.1 appears to be in the development pipeline and will include these   
-changes, and perhaps others.  
-I made these changes to fix the errors until the new version makes it to the repo.
+Version 0.2.1 appears to be included beginning with 21.04 so we should see it in the next LTS.  
+I made these changes to fix the errors until the new version makes it to the LTS repo.
 
 The file gcp is located at /usr/share/gcp/  
 It can be replaced or edited using sudo privledges.  
