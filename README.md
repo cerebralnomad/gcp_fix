@@ -4,7 +4,7 @@ Code change to the gcp utility to eliminate deprecation warnings
 Beginning with Ubuntu 20.04, gcp began throwing deprecation warnings when run.
 I made a handful of changes to the code to eliminate these warnings.
 
-The file gcp is located at /usr/share/gcp
+The file gcp is located at /usr/share/gcp/
 It can be replaced or edited using sudo privledges.
 
 Both the original and edited versions are included in this repo for reference 
